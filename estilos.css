@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+
+.navbar li {
+    padding: 0px 0px 0px 10px;
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+
+.gris {
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.849) !important;
+}
+
+.row {
+    margin-top: 20px;
+    padding: 100px 30px 100px 30px;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.servicios .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.servicios h2 {
+    margin-top: 15px;
+    color: gray;
+}
+
+#Servicios p {
+    color: grey;
+}
+
+#Servicios img {
+    width: 150px;
+}
+
+
+/* .servicios.col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+} */
+
+.m-t {
+    margin-top: 200px;
+}
+
+
+/* fin estilo servicios */
+
+#profes img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#profes img:hover {
+    border: white;
+}
+
+#nosotros {
+    background-color: black;
+    height: 800px;
+}
+
+#nosotros p {
+    color: whitesmoke;
+}
+
+.carouselExampleIndicators img {
+    height: 100vh;
+}
