@@ -27,12 +27,12 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 
-.servicios .col-lg-4 {
+.idiomas.col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-.servicios h2 {
+.idiomas h2 {
     margin-top: 15px;
     color: gray;
 }
@@ -58,21 +58,16 @@ body {
 
 /* fin estilo servicios */
 
-#profes img {
+#maestros img {
     width: 100%;
     border-radius: 5px;
 }
 
-#profes img:hover {
+#maestros img:hover {
     border: white;
 }
 
-#nosotros {
-    background-color: black;
-    height: 800px;
-}
-
-#nosotros p {
+#maestros p {
     color: whitesmoke;
 }
 

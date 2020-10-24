@@ -27,7 +27,7 @@
   <nav class="navbar navbar-expand-lg sticky navbar-dark gris scrolling-navbar fixed-top">
 
     <div class="container">
-      <a class="navbar-brand" href="index.php">FÉNIX</a>
+      <a class="navbar-brand" href="index.php"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,10 +37,10 @@
             <a class="nav-link" href="" index.php>Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Servicios">Idiomas</a>
+            <a class="nav-link" href="#idiomas">Idiomas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Profes">Maestros</a>
+            <a class="nav-link" href="#maestros">Maestros</a>
           </li>
           <li class="nav-item dropdown" >
            <a class="nav-link dropdown-toggle" id="desplegabletienda"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tienda virtual</a>
@@ -140,11 +140,11 @@
 
 
             <!--First slide-->
-            <div class="carrousel servicios carousel-item active white">
+            <div class="carrousel idiomas carousel-item active white">
 
               <div class="row">
                 <div class="col-lg-4 ">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img  style="width:150px"class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
+                  <a href="" target="_blank"><img  style="width:150px"class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
                   <h2 class="card-title">italiano</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
@@ -152,14 +152,14 @@
 
 
                 <div class="col-lg-4 clearfix  d-md-block">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
+                  <a href=" " target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
                   <h2 class="card-title"> Francés</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 </div>
 
                 <div class="col-lg-4 clearfix  d-md-block">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/ingles.jpg"></a>
+                  <a href="" target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/ingles.jpg"></a>
                   <h2 class="card-title">Inglés</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
@@ -170,11 +170,11 @@
             <!--/.First slide-->
 
             <!--Second slide-->
-            <div class="carousel servicios carousel-item white">
+            <div class="carousel idiomas carousel-item white">
 
               <div class="row">
                 <div class="col-lg-4 ">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/portugues.jpg"></a>
+                  <a href="" target="_blank"><img style="width:150px"class="card-img-top rounded-circle example hoverable" src="imagenes/portugues.jpg"></a>
                   <h2 class="card-title">Portugués</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
@@ -182,14 +182,14 @@
                 </div>
 
                 <div class="col-lg-4 clearfix d-md-block">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/Aleman.jpg"></a>
+                  <a href=" " target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/Aleman.jpg"></a>
                   <h2 class="card-title">Alemán</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 </div>
 
                 <div class="col-lg-4 clearfix  d-md-block">
-                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/circulo8.jpg"></a>
+                  <a href="" target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/circulo8.jpg"></a>
                   <h2 class="card-title">Metodología</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
@@ -217,7 +217,7 @@
           </div>
 
           <div class="col-md-6   d-none d-sm-block">
-            <img src="Galeria/nosotros.jpg" alt="" style="width:100%; margin">
+            <img src="" alt="" style="width:100%; margin">
           </div>
         </div>
       </div>
@@ -226,7 +226,7 @@
 
     <!-- TARJETAS CON ACORDEON -->
     <div class="container-fluid bg-black">
-      <div class="container" id="Profes">
+      <div class="container" id="maestros">
         <h2 class="text-center mt-5 display-4">Nuestros Maestros</h2>
         <div class="row">
              <!-- TRES COLUMNAS -->
@@ -355,128 +355,7 @@
     <!-- FIN CONTAINER FLUID -->
 
 
-    <!-- GALERIA DE IMAGENES -->
-
-
-    <div class="container-fluid" id="Galeria">
-      <h2 class="text-center text-warning">GALERIA </h2>
-      <div class="row">
-
-        <div class="col-md-4">
-          <div id="Carruselgaleria1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#Carruselgaleria1" data-slide-to="0" class="active"></li>
-              <li data-target="#Carruselgaleria1" data-slide-to="1"></li>
-              <li data-target="#Carruselgaleria1" data-slide-to="2"></li>
-              <li data-target="#Carruselgaleria1" data-slide-to="3"></li>
-              <li data-target="#Carruselgaleria1" data-slide-to="4"></li>
-
-
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active view overlay zoom ">
-                <img src="Galeria/1.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/2.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/3.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/10.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/11.jpg" class="img-fluid" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#Carruselgaleria1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#Carruselgaleria1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div id="Carruselgaleria2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#Carruselgaleria2" data-slide-to="0" class="active"></li>
-              <li data-target="#Carruselgaleria2" data-slide-to="1"></li>
-              <li data-target="#Carruselgaleria2" data-slide-to="2"></li>
-              <li data-target="#Carruselgaleria2" data-slide-to="3"></li>
-              <li data-target="#Carruselgaleria2" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active view overlay zoom">
-                <img src="Galeria/4.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/5.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/6.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/12.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/13.jpg" class="img-fluid" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#Carruselgaleria2" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#Carruselgaleria2" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div id="Carruselgaleria3" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#Carruselgaleria3" data-slide-to="0" class="active"></li>
-              <li data-target="#Carruselgaleria3" data-slide-to="1"></li>
-              <li data-target="#Carruselgaleria3" data-slide-to="2"></li>
-              <li data-target="#Carruselgaleria3" data-slide-to="3"></li>
-              <li data-target="#Carruselgaleria3" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active view overlay zoom">
-                <img src="Galeria/7.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/8.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/9.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/14.jpg" class="img-fluid" alt="...">
-              </div>
-              <div class="carousel-item view overlay zoom">
-                <img src="Galeria/15.jpg" class="img-fluid" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#Carruselgaleria3" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#Carruselgaleria3" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
+    
 
     <!-- Footer -->
     <footer class="page-footer font-small  pt-4">
