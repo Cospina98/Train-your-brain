@@ -7,7 +7,6 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="imagenes/logo.ico" type="image/png" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Google Fonts -->
@@ -16,7 +15,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="Estilos.css">
+  <link rel="stylesheet" href="estilos.css">
   <title>Fundación de idiomas</title>
 </head>
 
@@ -232,7 +231,7 @@
              <!-- TRES COLUMNAS -->
           <div class="col-md-4">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ejemplo1" aria-expanded="false" aria-controls="collapseExample">
-              <img class="z-depth-2"  src="imagenes/1.jpg" style="width:100%;margin:0px" alt="...">
+              <img class="z-depth-2"  src="imagenes/1.jpg" style="width:100%;margin:0px"  alt="...">
             </button>
           </div>
           <div class="collapse" id="ejemplo1">
