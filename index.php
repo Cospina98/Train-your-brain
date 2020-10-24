@@ -109,22 +109,15 @@
 </center> -->
 
  
-
     <!-- CARRUSEL MULTIPLE DE SERVICIOS -->
 
     <div class="container-fluid" id="idiomas">
-      <h2 class="text-center text-muted m-t h2-responsive" style="font-family:'Anton',sans-serif;font-size:50px">Idiomas</h2>
+      <h2 class="text-center text-muted m-t h2-responsive" style="font-family:'Anton',sans-serif;font-size:50px"> Servicios</h2>
 
       <div class="container">
         <!--Carousel Wrapper-->
         <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-fade " data-ride="carousel">
 
-          <!--Controls-->
-          <!-- <div class="controls-top">
-           <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-           <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-          </div> -->
-          <!--/.Controls-->
 
           <!--Indicators-->
           <ol class="carousel-indicators ">
@@ -143,23 +136,23 @@
 
               <div class="row">
                 <div class="col-lg-4 ">
-                  <a href="" target="_blank"><img  style="width:150px"class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
-                  <h2 class="card-title">italiano</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                </div>
-
-
-                <div class="col-lg-4 clearfix  d-md-block">
-                  <a href=" " target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
-                  <h2 class="card-title"> Francés</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                </div>
-
-                <div class="col-lg-4 clearfix  d-md-block">
-                  <a href="" target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/ingles.jpg"></a>
+                  <a href="" target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/ingles.jpg"></a>
                   <h2 class="card-title">Inglés</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+
+
+                <div class="col-lg-4 clearfix  d-md-block">
+                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/portugues.jpg"></a>
+                  <h2 class="card-title">Portugués</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+
+                <div class="col-lg-4 clearfix  d-md-block">
+                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
+                  <h2 class="card-title">Fracés</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 </div>
@@ -173,22 +166,22 @@
 
               <div class="row">
                 <div class="col-lg-4 ">
-                  <a href="" target="_blank"><img style="width:150px"class="card-img-top rounded-circle example hoverable" src="imagenes/portugues.jpg"></a>
-                  <h2 class="card-title">Portugués</h2>
+                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
+                  <h2 class="card-title">Italiano</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
 
                 </div>
 
                 <div class="col-lg-4 clearfix d-md-block">
-                  <a href=" " target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/Aleman.jpg"></a>
+                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/Aleman.jpg"></a>
                   <h2 class="card-title">Alemán</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 </div>
 
                 <div class="col-lg-4 clearfix  d-md-block">
-                  <a href="" target="_blank"><img style="width:150px" class="card-img-top rounded-circle example hoverable" src="imagenes/circulo8.jpg"></a>
+                  <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src=""></a>
                   <h2 class="card-title">Metodología</h2>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
@@ -202,6 +195,7 @@
         <!--/.Carousel Wrapper-->
       </div>
     </div>
+
 
 
     <!-- SECCION NOSOTROS -->
