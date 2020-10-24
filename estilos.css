@@ -10,11 +10,11 @@ body {
 }
 
 .gris {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(106, 95, 136, 0.849);
 }
 
 .top-nav-collapse {
-    background-color: rgba(0, 0, 0, 0.849) !important;
+    background-color: rgba(62, 29, 151, 0.849) !important;
 }
 
 .row {
@@ -37,11 +37,11 @@ body {
     color: gray;
 }
 
-#Servicios p {
+#idiomas p {
     color: grey;
 }
 
-#Servicios img {
+#idiomas img {
     width: 150px;
 }
 
@@ -78,4 +78,8 @@ body {
 
 .carouselExampleIndicators img {
     height: 100vh;
+}
+
+footer {
+    background-color: rgba(62, 29, 151, 0.849);
 }
