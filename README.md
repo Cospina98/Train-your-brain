@@ -10,4 +10,4 @@ Integrantes:
     <br>
     -Jarrison Camilo Cano Misas
    
-Enlace web: <a href="https://trainyourbrain.herokuapp.com/" target="_blank"> https://trainyourbrain.herokuapp.com/ </a>
+Enlace web:  https://trainyourbrain.herokuapp.com/
