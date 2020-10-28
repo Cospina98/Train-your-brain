@@ -4,10 +4,10 @@ el portal hace parte de un proyecto de la materia Ingeniería de software para l
 <br>
 Integrantes: 
     <br>
-    Daniel Mateo Largo Roldán
+    -Daniel Mateo Largo Roldán
     <br>
-    Carlos Daniel Ospina Villa
+    -Carlos Daniel Ospina Villa
     <br>
-    Jarrison Camilo Cano Misas
+    -Jarrison Camilo Cano Misas
    
 Enlace web: https://trainyourbrain.herokuapp.com/
