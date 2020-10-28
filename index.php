@@ -112,7 +112,7 @@
     <!-- CARRUSEL MULTIPLE DE SERVICIOS -->
 
     <div class="container-fluid" id="idiomas">
-      <h2 class="text-center text-muted m-t h2-responsive" style="font-family:'Anton',sans-serif;font-size:50px"> Servicios</h2>
+      <h2 class="text-center text-muted m-t h2-responsive" style="font-family:'Anton',sans-serif;font-size:50px"> Idiomas</h2>
 
       <div class="container">
         <!--Carousel Wrapper-->
@@ -210,7 +210,7 @@
           </div>
 
           <div class="col-md-6   d-none d-sm-block">
-            <img src="" alt="" style="width:100%; margin">
+            <img src="" alt="" style="width:100%;">
           </div>
         </div>
       </div>
