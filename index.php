@@ -41,11 +41,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#maestros">Maestros</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="desplegabletienda" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tienda virtual</a>
-            <div class="dropdown-menu" aria-labelledby="desplegabletienda">
-              <a class="dropdown-item" href="carrito.html" target="_blank">Carrito</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="cursos.html" target="_blank">Cursos</a>
           </li>
         </ul>
 
@@ -65,8 +62,9 @@
               <i class="fas fa-user"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-              <a class="dropdown-item" href="#">Iniciar Sesión</a>
-              <a class="dropdown-item" href="#">Registrarse</a>
+              <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">
+                Inciar sesión</button>
+              <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal1">Registrarse</button>
             </div>
           </li>
         </ul>
@@ -74,10 +72,106 @@
     </div>
   </nav>
 
+  
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Sign in</p>
+
+            <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+            <div class="d-flex justify-content-around">
+              <div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                </div>
+              </div>
+              <div>
+                <a href="">Forgot password?</a>
+              </div>
+            </div>
+
+            <button class="btn btn-info btn-block my-4 btn-secondary" type="submit">Sign in</button>
+
+            <p>Not a member?
+              <a href="">Register</a>
+            </p>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Sign up</p>
+
+            <div class="form-row mb-4">
+              <div class="col">
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+
+            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+              At least 8 characters and 1 digit
+            </small>
+
+            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+              At least 8 characters and 1 digit
+            </small>
+            <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+              Optional - for two step authentication
+            </small>
+
+
+            <button class="btn btn-info my-4 btn-block btn-secondary" type="submit">Sign in</button>
+
+
+            <hr>
+
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <!-- CARRUSEL -->
-  <!-- 
-<center><div class="container-sm"> -->
+
   <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -105,19 +199,15 @@
     </a>
   </div>
 
-  <!-- </div>
-</center> -->
-
-
   <!-- CARRUSEL MULTIPLE DE SERVICIOS -->
 
 
 
-  <div class="container" id="idiomas">
+  <div class="container py-4" id="idiomas">
     <div class="row">
       <div class="col-lg-4 ">
         <a href="" target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
-        <h2 class="card-title">Inglés</h2>
+        <h2 class="card-title">Italiano</h2>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
           card's content.</p>
       </div>
@@ -139,7 +229,7 @@
     </div>
 
   </div>
-  
+
 
   <!-- SECCION NOSOTROS -->
 
