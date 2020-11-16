@@ -243,7 +243,7 @@
         </div>
 
         <div class="col-md-6   d-none d-sm-block">
-          <img src="" alt="" style="width:100%;">
+          <img src="imagenes/Nosotros.jpg" alt="" style="width:100%;">
         </div>
       </div>
     </div>
