@@ -4,7 +4,6 @@
 <html lang="es">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Font Awesome -->
@@ -20,8 +19,6 @@
 </head>
 
 <body class="white">
-
-
   <!-- BARRA DE NAVEGACIÓN -->
   <nav class="navbar navbar-expand-lg sticky navbar-dark gris scrolling-navbar fixed-top">
 
@@ -42,7 +39,7 @@
             <a class="nav-link" href="#maestros">Maestros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="cursos.html" target="_blank">Cursos</a>
+            <a class="nav-link" href="cursos.html">Cursos</a>
           </li>
         </ul>
 
@@ -208,23 +205,20 @@
       <div class="col-lg-4 ">
         <a href="" target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/italiano.jpg"></a>
         <h2 class="card-title">Italiano</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-          card's content.</p>
+        <p class="card-text">Es una lengua romance que proviene del Toscano arcaico y pertenece al grupo itálico de la familia de lenguas indoeuropeas.</p>
       </div>
 
 
       <div class="col-lg-4 clearfix  d-md-block">
-        <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/Portugues.jpg"></a>
+        <a href="" target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/Portugues.jpg"></a>
         <h2 class="card-title">Portugués</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-          card's content.</p>
+        <p class="card-text">Actualmente, es la lengua principal de Portugal, Brasil, Angola, Guinea-Bissau, Mozambique, Cabo Verde, Santo Tomé y Príncipe y Timor Oriental</p>
       </div>
 
       <div class="col-lg-4 clearfix  d-md-block">
-        <a href="https://fenixgirardota.herokuapp.com/ " target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
-        <h2 class="card-title">Fracés</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-          card's content.</p>
+        <a href="" target="_blank"><img class="card-img-top rounded-circle example hoverable" src="imagenes/frances.jpg"></a>
+        <h2 class="card-title">Francés</h2>
+        <p class="card-text">El idioma francés es una lengua hablada en la Unión Europea, especialmente en Francia.</p>
       </div>
     </div>
 
