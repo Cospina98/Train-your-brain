@@ -291,7 +291,7 @@
 
         <div class="collapse" id="ejemplo1">
           <div class="card card-body d-none d-md-block">
-            Juan es un estudiante universitario en Alemania, se encuentra estudiando español, su amor por enseñar es lo que más destaca de él, por eso hace parte de nuestra fundación. 
+            Juan es un estudiante universitario en francia, se encuentra estudiando español, su amor por enseñar es lo que más destaca de él, por eso hace parte de nuestra fundación 
           </div>
         </div>
 
