@@ -14,8 +14,12 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <!-- css file -->
   <link rel="stylesheet" href="estilos.css">
-  <title>Fundación de idiomas</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./imagenes/banner4.jpg" type="image/x-icon">
+  <!-- title -->
+  <title>Fundación de idiomas | Home</title>
 </head>
 
 <body class="white">
@@ -233,7 +237,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1> NOSOTROS</h1>
-          <P> Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quis ducimus tempora vel voluptatibus temporibus quisquam exercitationem rerum tempore architecto ab aliquam, repudiandae accusamus corporis cupiditate laborum omnis modi quasi.</P>
+          <P> Somos una fundación especializada en la enseñanza de idiomas extranjeros, tenemos el objetivo de certificar personas con la capacidad de hablar idiomas como el italiano, francés y portugués de manera fluida. Utilizamos herramientas de realidad virtual y clases en vivo disponbles las 24 horas para poder brindarles una experiencia unica a nuestros estudiantes. Aprende con nosotros.</P>
         </div>
 
         <div class="col-md-6   d-none d-sm-block">
@@ -287,15 +291,14 @@
 
         <div class="collapse" id="ejemplo1">
           <div class="card card-body d-none d-md-block">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-
+            Juan es un estudiante universitario en Alemania, se encuentra estudiando español, su amor por enseñar es lo que más destaca de él, por eso hace parte de nuestra fundación. 
           </div>
         </div>
 
 
         <div class="collapse" id="ejemplo2">
           <div class="card card-body card card-body d-none d-md-block ">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            Alicia es una mujer proveniente de la ciudad Tokio, en Japon. Tiene 42 años. Es maestra de Francés, habla Alemán, español, ingles y francés, ademas de su idioma natal, y trabaja desde hace 10 años en la institución universitaria salazar y herrera.
           </div>
         </div>
 
